@@ -5,4 +5,4 @@ Features:
 
 
 ## How to make colors?
-Tailwind Shades Extnesion
+"Tailwind Shades" Extnesion
