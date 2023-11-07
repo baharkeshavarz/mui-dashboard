@@ -81,7 +81,6 @@ const SideBar = () => {
                         display: "flex",
                         justifyContent: "space-between",
                         alignItems: "center",
-                        ml: "15px",
                     }}>
                   <Typography variant="h3" color={colors.grey[100]}>
                     ADMINIS
@@ -100,8 +99,8 @@ const SideBar = () => {
                  <Box display="flex" justifyContent="center" alignItems="center">
                     <img 
                        alt="profile user"
-                       width="100px"
-                       height="100px"
+                       width="90px"
+                       height="90px"
                        src="/assets/3.jpg"
                        style={{ cursor: "pointer", borderRadius: "100%" }}
                     />
