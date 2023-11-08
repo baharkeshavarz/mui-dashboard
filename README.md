@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# React Panel with Material UI
+
+!["mui admin"](/public/preview.jpg)
+
+!["mui admin"](/public/panel.jpg)
 
 Features:
 - Customizing the Material UI Theme
