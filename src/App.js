@@ -13,10 +13,11 @@ import Faq from "./scenes/faq";
 import { Bar } from "./scenes/bar";
 import { Pie } from "./scenes/pie";
 import { Line } from "./scenes/line";
+import  Notes from "./scenes/notes";
+import { Geography } from "./scenes/geography";
 
 function App() {
   const [theme, colorMode] = useMode();
-
   return (
     <ColorModeContext.Provider value={colorMode}>
        <ThemeProvider theme={theme}>
@@ -36,6 +37,8 @@ function App() {
                   <Route path="/bar" element={<Bar/>} />
                   <Route path="/pie" element={<Pie/>} />
                   <Route path="/line" element={<Line/>} />
+                  <Route path="/geography" element={<Geography/>} />
+                  <Route path="/test" element={<Notes/>} />
                  </Routes>
               </main>
             </div>
@@ -45,7 +48,5 @@ function App() {
 }
 
 export default App;
-
-
 
 /* <CssBaseline/>: reset the css to default  */
